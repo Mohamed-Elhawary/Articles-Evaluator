@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Articles Evaluator</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Articles Evaluator</h1>
+        </header>
+        <main>
+            <section id="form-section">
+                <p>Please Enter a URL of an article or a blog to evaluate its sentiment.</p>
+                <form id="form">
+                    <input id="article_url_input" type="text" name="article_url_input" placeholder="Enter an Article URL">
+                    <button type="submit" class="submit_btn">Get Results</button>
+                </form>
+            </section>
+
+            <section id="results-section">
+                <strong>Results</strong>
+                <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                <div class="error" style="color: red; margin-top: 25px;"></div>
+                <div id="results"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>All rights are reserved &copy; 2021</p>
+            Made by: <a href="https://github.com/Mohamed-Elhawary" target="_blank">HaWaRy</a>
+        </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+              // Use the window load event to keep the page load performant
+              window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+              })
+            }
+        </script>
+    </body>
+</html>
