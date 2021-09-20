@@ -6,13 +6,19 @@ Articles Evaluator is a web tool that allows users to run Natural Language Proce
 
 ## Demo
 
-https://user-images.githubusercontent.com/69651552/134084351-43b3f910-37b5-4c54-9294-a435c57b0617.mp4
+> Run the Express Server & the Development Server
+
+https://user-images.githubusercontent.com/69651552/134088581-b46ca171-84a5-486f-bf77-967df0554c4b.mp4
+
+> Try the App on localhost:8080
+
+https://user-images.githubusercontent.com/69651552/134088575-66fb9eda-adb1-4f51-b69c-4a4bb6cbfbc4.mp4
 
 ## Instructions, Building & Getting Started  
     - 1- Fork, clone or download this repository to your local machine.
     - 2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
     - 3- Open your terminal and Be sure that you are inside the correct destination of the App, while you must be in the same path of the package.json file and the website folder.
-    -4- Create an account in the [Meaning Cloud Platform](https://www.meaningcloud.com/), once you create your account you can get your own API key from the platform dashboard and with this API key you can make the requests.   
+    - 4- Create an account in the [Meaning Cloud Platform](https://www.meaningcloud.com/), once you create your account you can get your own API key from the platform dashboard and with this API key you can make the requests.   
     - 5- Create a (.env) file and add two environment variables into it as shown below:
           ```
             MEAN_CLOUD_API_URL=https://api.meaningcloud.com/sentiment-2.1
@@ -128,13 +134,11 @@ Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with
 
 - NLP on Human Voice: 
   --------------------
-  For example, everyone who has used Alexa or Google Assistant or other voice command systems knows that these devices are always improving, by collecting and interpreting voice data. Verbal interactions can be incredibly hard to decipher. Sarcasm, for instance, requires understanding not just words and grammar but the tone as well, and regional accents and ways of saying things have to be taken into account, not to mention coverage for all the major languages.
-  ---------------------
+  * For example, everyone who has used Alexa or Google Assistant or other voice command systems knows that these devices are always improving, by collecting and interpreting voice data. Verbal interactions can be incredibly hard to decipher. Sarcasm, for instance, requires understanding not just words and grammar but the tone as well, and regional accents and ways of saying things have to be taken into account, not to mention coverage for all the major languages.
 
 - NLP on Text
   ---------------------
-  An example is Grammarly editing tool, which parses the text that you write, and suggests if the tone is professional or not. Another example is the Smart Compose feature for Gmail that uses NLP to suggest words and statements based on your current context.
-  ---------------------
+  * An example is Grammarly editing tool, which parses the text that you write, and suggests if the tone is professional or not. Another example is the Smart Compose feature for Gmail that uses NLP to suggest words and statements based on your current context.
 
 ## License
 
