@@ -1,5 +1,7 @@
 # Articles Evaluator
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/165cc364-d700-4596-ac52-c09a3565cf3d/deploy-status)](https://app.netlify.com/sites/articles-evaluator/deploys)
+
 Articles Evaluator is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
 
 ![Screenshot](preview.png) 
