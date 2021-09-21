@@ -1,4 +1,5 @@
-import {handleSubmit} from './js/formHandler'
+import {handleSubmit} from './js/formHandler';
+import {checkUrl} from './js/checkURL';
 
 import './styles/index.scss'
  
@@ -10,4 +11,4 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-export {handleSubmit}
+export {handleSubmit, checkUrl} // Refernce all the App Methods from the [Client Library] by exporting them in the index.js file

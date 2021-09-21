@@ -1,5 +1,3 @@
-import {checkUrl} from './checkURL'
-
 function handleSubmit() {
     const loader = document.querySelector(".lds-ellipsis");
     const error = document.querySelector(".error");
@@ -12,7 +10,7 @@ function handleSubmit() {
     // check what text was put into the form field
     let articleInputValue = document.getElementById('article_url_input').value;
     
-    if(checkUrl(articleInputValue)) {
+    if(Client.checkUrl(articleInputValue)) {
         fetch('http://localhost:8081/add-url', {
             method: 'POST',
             credentials: 'same-origin',
