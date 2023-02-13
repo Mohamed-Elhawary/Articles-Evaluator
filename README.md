@@ -51,7 +51,7 @@ https://user-images.githubusercontent.com/69651552/134088575-66fb9eda-adb1-4f51-
         ```
     - 6- Once the App development server is running, visit (localhost:8080) in the browser to view the App and now you can treat with it as shown above in the Demo.
 
-## Built With
+## Built with
 
 * HTML
 * CSS
@@ -102,18 +102,6 @@ https://user-images.githubusercontent.com/69651552/134088575-66fb9eda-adb1-4f51-
 
 * Node JS with Express Framework to create server-side for storing the retrieved data
 
-## Author
-
-* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/) 
-
-## Contact me through my social accounts
-
-* Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
-* [Github](https://github.com/Mohamed-Elhawary)  
-* [Behance](https://www.behance.net/mohamed-elhawary14)
-* [Codepen](https://codepen.io/Mohamed-ElHawary)
-
 ## Notices & Overview about the App
 
 - This App is a practical project from Udacity Course [Nanodegree Program - Web Development Advanced Track](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
@@ -135,6 +123,18 @@ https://user-images.githubusercontent.com/69651552/134088575-66fb9eda-adb1-4f51-
 ## Certificate
 
 [Course Certificate](Certificate.pdf)
+
+## Author
+
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/) 
+
+## Contact me through my social accounts
+
+* Email: mohamed.k.elhawary@gmail.com
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Github](https://github.com/Mohamed-Elhawary)  
+* [Behance](https://www.behance.net/mohamed-elhawary14)
+* [Codepen](https://codepen.io/Mohamed-ElHawary)
 
 ## License
 
